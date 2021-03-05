@@ -11,7 +11,7 @@ const TaskCards = ({ task }) => {
 
     return (
         <div className='list-task'>
-            <span style={task.isDone ? { textDecoration: "line-through", color: "red" } : null}>{task.title}</span>
+            <span style={task.isDone ? { textDecoration: "line-through", color: "#c02424" } : null}>{task.title}</span>
             <div className="btn-contaier">
                 <EditTask task={task} />
 

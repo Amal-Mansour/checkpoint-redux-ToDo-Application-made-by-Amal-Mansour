@@ -12,12 +12,13 @@
 
 .filter-button {
   border-radius: 10px !important;
-  background-color: #9e1f1f !important;
+  background-color: #9e1f1f!important;
   color: aliceblue !important;
-  font-size: 18px !important;
+  font-size: 15px !important;
+  font-style: bold;
   text-align: center !important;
-  width: 150px;
-  height: 35px;
+  width: 120px;
+  height: 39px;
 }
 
 .filter-button:hover {
