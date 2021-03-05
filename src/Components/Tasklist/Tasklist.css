@@ -3,9 +3,10 @@
   height: 600px;
   border-radius:10px;
   background-color:rgb(250, 234, 214,0.9);
-  margin:19px 100px ;
+  margin:19px;
   color:black;
-  margin-left: 270px;
+  margin-left: 250px;
+  margin-top: 4px;
   box-shadow:3px 3px 5px 6px #ccc; 
 }
   
