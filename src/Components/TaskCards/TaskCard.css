@@ -1,0 +1,28 @@
+.list-task {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 12px;
+  margin-top: 30px;
+  margin-left: 10px;
+  width: 1000px;
+  height: 90px;
+}
+
+.btn-contaier {
+  display: flex;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+
+.button-style:hover {
+  background-color: #9e1f1f !important;
+}
+
+span {
+  width: 32vw;
+  margin-top: 30px;
+  text-align: center;
+  line-height: center;
+  word-break: break-all;
+}

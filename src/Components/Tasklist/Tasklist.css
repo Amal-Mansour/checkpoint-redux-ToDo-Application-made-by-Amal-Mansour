@@ -1,0 +1,19 @@
+.list-container{
+  width: 1000px;
+  height: 600px;
+  border-radius:10px;
+  background-color:rgb(250, 234, 214,0.9);
+  margin:19px 100px ;
+  color:black;
+  margin-left: 270px;
+  box-shadow:3px 3px 5px 6px #ccc; 
+}
+  
+.list-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  

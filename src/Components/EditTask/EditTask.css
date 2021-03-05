@@ -1,0 +1,11 @@
+.button-style {
+    margin: 5px 10px;
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    background-color:rgb(0,0,0,0.9) !important;
+  }
+
+  .button-style :hover {
+    background-color: #9e1f1f !important ;
+  }

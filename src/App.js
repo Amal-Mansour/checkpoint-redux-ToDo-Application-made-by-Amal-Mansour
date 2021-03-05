@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 
-import InputText from './Components/InputText'
-import Tasklist from './Components/Tasklist'
-import FilterText from './Components/FilterText'
+import InputTask from './Components/InputTask/InputTask'
+import Tasklist from './Components/Tasklist/Tasklist'
+import FilterTask from './Components/FilterTask/FilterTask'
 import './App.css';
 
 
@@ -14,9 +14,9 @@ function App() {
 
   return (
     <div className="App">
-      <InputText />
+      <InputTask />
 
-      <FilterText
+      <FilterTask
         setFilteredTaskList={setFilteredTaskList}
         filterStatus={filterStatus}
         setFilterStauts={setFilterStauts}
